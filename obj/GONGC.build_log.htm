@@ -1,0 +1,135 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\skyworks\Project\SRT_loudspeak\GONGC.uvproj
+Project File Date:  07/01/2015
+
+<h2>Output:</h2>
+Rebuild target 'Target 1'
+assembling cortexm3_macro.s...
+assembling startup_stm32f10x_hd.s...
+compiling main.c...
+.\GPIO_Config\GPIO_Config.h(37): warning:  #1-D: last line of file ends without a newline
+  void GPIO_Config(void);
+.\PWM_Config\PWM_Config.h(15): warning:  #1-D: last line of file ends without a newline
+  void LED_PWM_Config();
+.\PWM_Config\PWM_Config.h(15): warning:  #1295-D: Deprecated declaration LED_PWM_Config - give arg types
+  void LED_PWM_Config();
+user\main.c(80): warning:  #1-D: last line of file ends without a newline
+        
+user\main.c: 4 warnings, 0 errors
+compiling System_Tick.c...
+compiling GPIO_Config.c...
+GPIO_Config\GPIO_Config.h(37): warning:  #1-D: last line of file ends without a newline
+  void GPIO_Config(void);
+GPIO_Config\GPIO_Config.c(93): warning:  #1-D: last line of file ends without a newline
+  }
+GPIO_Config\GPIO_Config.c: 2 warnings, 0 errors
+compiling PWM_Config.c...
+PWM_Config\PWM_Config.h(15): warning:  #1-D: last line of file ends without a newline
+  void LED_PWM_Config();
+PWM_Config\PWM_Config.h(15): warning:  #1295-D: Deprecated declaration LED_PWM_Config - give arg types
+  void LED_PWM_Config();
+PWM_Config\PWM_Config.c(19): warning:  #177-D: variable "Green_TIM_OCInitStructure" was declared but never referenced
+    TIM_OCInitTypeDef BLUE_TIM_OCInitStructure, Green_TIM_OCInitStructure, Red_TIM_OCInitStructure;
+PWM_Config\PWM_Config.c(19): warning:  #177-D: variable "Red_TIM_OCInitStructure" was declared but never referenced
+    TIM_OCInitTypeDef BLUE_TIM_OCInitStructure, Green_TIM_OCInitStructure, Red_TIM_OCInitStructure;
+PWM_Config\PWM_Config.c: 4 warnings, 0 errors
+compiling stm32f10x_tim.c...
+compiling stm32f10x_flash.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_rcc.c...
+compiling delay.c...
+compiling stm32f10x_usart.c...
+compiling RCC_Configuration.c...
+compiling USART_Configuration.c...
+source\wlib\USART\USART_Configuration.c(191): warning:  #1-D: last line of file ends without a newline
+  }
+source\wlib\USART\USART_Configuration.c: 1 warning, 0 errors
+compiling stm32f10x_nvic.c...
+compiling stm32f10x_exti.c...
+linking...
+Program Size: Code=8604 RO-data=356 RW-data=56 ZI-data=528  
+FromELF: creating hex file...
+".\obj\GONGC.axf" - 0 Error(s), 11 Warning(s).
+Load "D:\\skyworks\\Project\\SRT_loudspeak\\obj\\GONGC.axf" 
+Set JLink Project File to "D:\skyworks\Project\SRT_loudspeak\JLinkSettings.ini"
+* JLink Info: Device "STM32F103C8" selected (64 KB flash, 20 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.80g, compiled Feb 13 2014 20:50:02
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103C8
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+</pre>
+</body>
+</html>
+ SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103C8
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+n.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103C8
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...

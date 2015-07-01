@@ -1,0 +1,15 @@
+.\obj\pwm_config.o: PWM_Config\PWM_Config.c
+.\obj\pwm_config.o: .\source\FWLib\inc\stm32f10x_lib.h
+.\obj\pwm_config.o: .\source\FWLib\inc\stm32f10x_map.h
+.\obj\pwm_config.o: .\user\stm32f10x_conf.h
+.\obj\pwm_config.o: .\source\FWLib\inc\stm32f10x_type.h
+.\obj\pwm_config.o: .\source\FWLib\inc\cortexm3_macro.h
+.\obj\pwm_config.o: .\source\FWLib\inc\stm32f10x_exti.h
+.\obj\pwm_config.o: .\source\FWLib\inc\stm32f10x_flash.h
+.\obj\pwm_config.o: .\source\FWLib\inc\stm32f10x_gpio.h
+.\obj\pwm_config.o: .\source\FWLib\inc\stm32f10x_nvic.h
+.\obj\pwm_config.o: .\source\FWLib\inc\stm32f10x_rcc.h
+.\obj\pwm_config.o: .\source\FWLib\inc\stm32f10x_systick.h
+.\obj\pwm_config.o: .\source\FWLib\inc\stm32f10x_tim.h
+.\obj\pwm_config.o: .\source\FWLib\inc\stm32f10x_usart.h
+.\obj\pwm_config.o: PWM_Config\PWM_Config.h
